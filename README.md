@@ -1,5 +1,4 @@
 # hacktoberfest_medium
-# hacktoberfest_medium
 
 A Hacktoberfest-friendly repository for contributing short Medium-style articles, guides, and resources about open source, programming, and tech topics.
 
