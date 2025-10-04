@@ -1,11 +1,3 @@
-# hacktoberfest_medium
-
-A Hacktoberfest-friendly repository for contributing short Medium-style articles, guides, and resources about open source, programming, and tech topics.
-
-This repository is part of a collection of projects from **different domains** so that everyone has a chance to contribute. Make sure to check other repositories in the collection too!
-
----
-
 ## Project idea
 
 The idea is to build a community-driven knowledge hub where contributors can add:
@@ -63,24 +55,6 @@ All content will be in Markdown format, making it easy to edit, review, and publ
 
 ---
 
-## Example Issues
-
-Each repository must have at least **3 well-explained issues**. Here are some examples:
-
-### 1. Add an article about "Getting Started with Git & GitHub" (`good first issue`)
-
-**Description:** Write a beginner-friendly article explaining Git basics, commits, branches, and how to contribute to GitHub projects.
-
-### 2. Improve repository structure (`medium`)
-
-**Description:** Organize the repo with better folder naming, update the templates, and improve readability of articles.
-
-### 3. Add advanced tutorial on "Setting up CI/CD with GitHub Actions" (`hard`)
-
-**Description:** Write a detailed guide on GitHub Actions workflows with examples for testing and deployment.
-
----
-
 ## Repository structure
 
 ```
@@ -91,14 +65,6 @@ hacktoberfest_medium/
 ├── .github/            # Issue and PR templates (optional)
 └── README.md
 ```
-
----
-
-## License
-
-This repository is released under the MIT License — see `LICENSE` for details.
-
----
 
 ## Code of conduct
 
@@ -121,4 +87,4 @@ This repository is tagged with the **Hacktoberfest** topic. All valid contributi
 
 ### Thank you
 
-Thanks for contributing! 🚀 Every small effort helps the open-source community grow.
+Thanks for contributing! Every small effort helps the open-source community grow.
