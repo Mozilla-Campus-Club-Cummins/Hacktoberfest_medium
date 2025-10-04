@@ -1,4 +1,50 @@
-## Project idea
+## Study_Space HacktoberFest2025
+![Image](https://github.com/user-attachments/assets/3c277aa6-6fb1-4636-b14a-a05bbbe9a0d9)
+##  About Us
+The **Mozilla Campus Club of CCEW** was formed to **promote the idea of open source** among aspiring students and encourage them to make the most of the opportunities that come along with it.  
+Our aim is to help students contribute to real-world projects while learning and growing with the community.
+
+
+---
+
+
+##  About This Repository
+This repository was created specifically to **support open-source participation among college students**.  
+The issues listed here will range in difficulty — from **beginner-friendly** to **advanced-level** — ensuring everyone has a fair opportunity to contribute.
+
+
+---
+
+
+## Instructions for Hacktoberfest 2025
+
+
+> Please read the following instructions carefully before contributing 
+
+
+- You must be a **student of CCEW**.  
+- You should be **registered in Mozilla** via the Mozilla-Campus Club website link shared earlier and also on the **official Hacktoberfest website**.  
+- Each participant is allowed a **maximum of 3 Pull Requests (PRs)** throughout the event.  
+- Make sure your **GitHub profile name** matches your real name (`First Name Last Name`).  
+  > If we’re unable to identify you, your PR won’t be accepted.  
+- When requesting issue assignment, mention:
+  - Your **name**
+  - **Branch**
+  - **Year of study**
+- Ensure your **code has proper comments and indentation**.  
+- **No spamming** — spam PRs will be rejected.  
+- **Plagiarism is strictly prohibited.**
+  > If plagiarism is detected, the PR will be rejected and no further contributions will be accepted.  
+- Issues will be assigned on a **first-come, first-serve basis**.  
+- Time limits:
+  -  **4 days** for easy/medium issues  
+  -  **7 days** for hard issues  
+  - If you fail to complete within the time, the issue will be reassigned to another student.
+
+
+---
+
+## About Project
 
 The idea is to build a community-driven knowledge hub where contributors can add:
 
@@ -8,83 +54,3 @@ The idea is to build a community-driven knowledge hub where contributors can add
 * Beginner-friendly programming explanations
 
 All content will be in Markdown format, making it easy to edit, review, and publish.
-
----
-
-## Setup instructions
-
-1. **Fork this repository**
-2. **Clone your fork:**
-
-   ```bash
-   git clone https://github.com/<your-username>/hacktoberfest_medium.git
-   cd hacktoberfest_medium
-   ```
-3. **Create a new branch:**
-
-   ```bash
-   git checkout -b feature/my-article
-   ```
-4. **Add your article or contribution** in the `articles/` folder.
-5. **Commit and push your changes:**
-
-   ```bash
-   git add .
-   git commit -m "Add: my new article on XYZ"
-   git push origin feature/my-article
-   ```
-6. **Open a Pull Request** with a short description of your contribution.
-
----
-
-## Contribution guidelines
-
-* Articles must be in Markdown (`.md`).
-* Keep them concise and clear (500–1500 words).
-* Use proper headings, bullet points, and code blocks.
-* Images should go in the `assets/` folder.
-* Follow the [Code of Conduct](#code-of-conduct).
-
-### Labels to use on Issues & PRs
-
-* `good first issue` → Beginner-friendly tasks
-* `medium` → Intermediate difficulty
-* `hard` → Advanced tasks
-* `documentation` → For doc-related contributions
-* All repositories must be tagged with `hacktoberfest`
-
----
-
-## Repository structure
-
-```
-hacktoberfest_medium/
-├── articles/           # Markdown articles
-├── assets/             # Images and diagrams
-├── templates/          # Contributor and article templates
-├── .github/            # Issue and PR templates (optional)
-└── README.md
-```
-
-## Code of conduct
-
-This project follows the [Contributor Covenant](https://www.contributor-covenant.org/). Please be respectful and constructive in all interactions.
-
----
-
-## Contact
-
-Maintainer: **nehalxx**
-For questions, open an issue or reach out via GitHub.
-
----
-
-### Hacktoberfest note
-
-This repository is tagged with the **Hacktoberfest** topic. All valid contributions will count toward your Hacktoberfest pull requests!
-
----
-
-### Thank you
-
-Thanks for contributing! Every small effort helps the open-source community grow.
