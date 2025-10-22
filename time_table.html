@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Course Timetable</title>
+    <style>
+        body { font-family: sans-serif; margin: 30px; background-color: #f8f8f8; }
+        
+        /* Table layout and appearance */
+        table {
+            width: 100%;
+            border-collapse: collapse; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            margin-top: 20px;
+        }
+        
+        /* Title */
+        caption { 
+            font-size: 1.5rem; 
+            margin-bottom: 10px; 
+            font-weight: 600; 
+            text-align: left;
+            color: #333;
+        }
+        
+        
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px 8px;
+            text-align: center;
+        }
+        
+        
+        thead th {
+            background-color: #5b5b5b;
+            color: white;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+        
+        
+        .time {
+            background-color: #eee; 
+            font-weight: bold;
+            color: #444;
+            width: 15%;
+        }
+        
+        /* Break Row */
+        .break {
+            background-color: #ffc107; 
+            font-weight: bold;
+            color: #333;
+            padding: 10px;
+        }
+        
+        .lab {
+            background-color: #e0f2f1; /* Pale teal for labs */
+            color: #004d40;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <table>
+        <caption>Second Year B.Tech. Timetable</caption>
+
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th class="time">8:30 - 9:30</th>
+                <td>DBMS</td>
+                <td>Physics</td>
+                <td>Maths</td>
+                <td>Data Structures</td>
+                <td>Electronics</td>
+            </tr>
+            <tr>
+                <th class="time">9:30 - 10:30</th>
+                <td class="lab">Electronics Lab</td>
+                <td>Chemistry</td>
+                <td>DBMS Practical</td>
+                <td>Maths</td>
+                <td>Data Structures</td>
+            </tr>
+            <tr>
+                <th class="time">10:30 - 12:00</th>
+                <td>DBMS</td>
+                <td>Chemistry Tut</td>
+                <td>Maths Tut</td>
+                <td>Physics Tut</td>
+                <td>Electronics Theory</td>
+            </tr>
+            <tr>
+                <th colspan="6" class="break">
+                    12:00 - 1:00 LUNCH BREAK
+                </th>
+            </tr>
+            <tr>
+                <th class="time">1:00 - 3:00</th>
+                <td class="lab">Chemistry Practical</td>
+                <td>Physics Lecture</td>
+                <td class="lab">Data Structures Lab</td>
+                <td>Electronics Theory</td>
+                <td class="lab">DBMS Project</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="6">
+                    *All labs are mandatory.
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
